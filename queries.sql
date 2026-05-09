@@ -1,0 +1,7 @@
+SELECT TOP (1000) [AttendanceID]
+      ,[EmployeeID]
+      ,[AttendanceDate]
+      ,[LoginTime]
+      ,[LogoutTime]
+      ,[Status]
+  FROM [EmployeeTimeTracking].[dbo].[Attendance]
